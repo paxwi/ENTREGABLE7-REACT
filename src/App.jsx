@@ -73,7 +73,7 @@ function App() {
         onMouseUp={() => setPresionando(false)}
         onClick={multiplicar}
         style={{
-          backgroundColor: presionando ? "#0b630b" : "#1ca81c",
+         backgroundColor: presionando ? "#90e9be" : "#0b630b",
           color: "white",
           padding: "10px 20px",
           border: "0px",
