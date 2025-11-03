@@ -8,7 +8,7 @@ function App() {
   const [presionando, setPresionando] = useState(false);
 
   const multiplicar = () => {
-    console.log("Multiplicando..."); // pequeño toque de estudiante probando
+    console.log("Multiplicando..."); 
     if (numero1 === "" || numero2 === "") {
       setResultado("Por favor complete todos los campos");
     } else {
